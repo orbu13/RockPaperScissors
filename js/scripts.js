@@ -17,9 +17,7 @@ if (userInputValue === "Rock" || userInputValue === "Paper"){
 } else{
     userOutput = "Maybe in the next round"
 }
-
 const userInputValueResult = document.getElementById("userInput").value = null;
 console.log(userOutput);
 finalAnswer.innerText = userInputValueResult;
 }
-
